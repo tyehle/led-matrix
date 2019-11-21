@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -149,12 +149,12 @@
     (add_net "Net-(D88-Pad1)")
   )
 
-  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD940A)
-    (at 44.45 25.4)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 5DD6FDD2) (tstamp 5DFD940A)
+    (at 107.95 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD575FB)
-    (fp_text reference D0 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D0 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -185,7 +185,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD941D)
-    (at 44.45 40.64)
+    (at 107.95 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5826E)
@@ -220,7 +220,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9430)
-    (at 44.45 55.88)
+    (at 107.95 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58932)
@@ -255,7 +255,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9443)
-    (at 44.45 71.12)
+    (at 107.95 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58941)
@@ -290,7 +290,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9456)
-    (at 44.45 86.36)
+    (at 107.95 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9492)
@@ -325,7 +325,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9469)
-    (at 44.45 101.6)
+    (at 107.95 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94A1)
@@ -360,7 +360,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD947C)
-    (at 44.45 116.84)
+    (at 107.95 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94B9)
@@ -395,7 +395,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD948F)
-    (at 44.45 132.08)
+    (at 107.95 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94C8)
@@ -430,7 +430,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94A2)
-    (at 49.53 25.4)
+    (at 113.03 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5818C)
@@ -465,7 +465,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94B5)
-    (at 49.53 40.64)
+    (at 113.03 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58275)
@@ -500,7 +500,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94C8)
-    (at 49.53 55.88)
+    (at 113.03 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58939)
@@ -535,7 +535,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94DB)
-    (at 49.53 71.12)
+    (at 113.03 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58948)
@@ -570,7 +570,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94EE)
-    (at 49.53 86.36)
+    (at 113.03 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9499)
@@ -605,7 +605,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9501)
-    (at 49.53 101.6)
+    (at 113.03 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94A8)
@@ -640,7 +640,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9514)
-    (at 49.53 116.84)
+    (at 113.03 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94C0)
@@ -675,7 +675,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9527)
-    (at 49.53 132.08)
+    (at 113.03 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94CF)
@@ -710,7 +710,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD953A)
-    (at 54.61 25.4)
+    (at 118.11 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591E6)
@@ -745,7 +745,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD954D)
-    (at 54.61 40.64)
+    (at 118.11 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591F5)
@@ -780,7 +780,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9560)
-    (at 54.61 55.88)
+    (at 118.11 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5920E)
@@ -815,7 +815,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9573)
-    (at 54.61 71.12)
+    (at 118.11 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5921D)
@@ -850,7 +850,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9586)
-    (at 54.61 86.36)
+    (at 118.11 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94E7)
@@ -885,7 +885,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9599)
-    (at 54.61 101.6)
+    (at 118.11 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94F6)
@@ -920,7 +920,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD95AC)
-    (at 54.61 116.84)
+    (at 118.11 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA950F)
@@ -955,7 +955,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD95BF)
-    (at 54.61 132.08)
+    (at 118.11 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA951E)
@@ -990,7 +990,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD95D2)
-    (at 59.69 25.4)
+    (at 123.19 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591ED)
@@ -1025,7 +1025,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD95E5)
-    (at 59.69 40.64)
+    (at 123.19 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591FC)
@@ -1060,7 +1060,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD95F8)
-    (at 59.69 55.88)
+    (at 123.19 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD59215)
@@ -1095,7 +1095,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD960B)
-    (at 59.69 71.12)
+    (at 123.19 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD59224)
@@ -1130,7 +1130,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD961E)
-    (at 59.69 86.36)
+    (at 123.19 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94EE)
@@ -1165,7 +1165,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9631)
-    (at 59.69 101.6)
+    (at 123.19 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94FD)
@@ -1200,7 +1200,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9644)
-    (at 59.69 116.84)
+    (at 123.19 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9516)
@@ -1235,7 +1235,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9657)
-    (at 59.69 132.08)
+    (at 123.19 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9525)
@@ -1270,7 +1270,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD966A)
-    (at 64.77 25.4)
+    (at 128.27 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5A0)
@@ -1305,7 +1305,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD967D)
-    (at 64.77 40.64)
+    (at 128.27 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5AF)
@@ -1340,7 +1340,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9690)
-    (at 64.77 55.88)
+    (at 128.27 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5C8)
@@ -1375,7 +1375,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD96A3)
-    (at 64.77 71.12)
+    (at 128.27 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5D7)
@@ -1410,7 +1410,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD96B6)
-    (at 64.77 86.36)
+    (at 128.27 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9549)
@@ -1445,7 +1445,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD96C9)
-    (at 64.77 101.6)
+    (at 128.27 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9558)
@@ -1480,7 +1480,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD96DC)
-    (at 64.77 116.84)
+    (at 128.27 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9571)
@@ -1515,7 +1515,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD96EF)
-    (at 64.77 132.08)
+    (at 128.27 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9580)
@@ -1550,7 +1550,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9702)
-    (at 69.85 25.4)
+    (at 133.35 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5A7)
@@ -1585,7 +1585,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9715)
-    (at 69.85 40.64)
+    (at 133.35 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5B6)
@@ -1620,7 +1620,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9728)
-    (at 69.85 55.88)
+    (at 133.35 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5CF)
@@ -1655,7 +1655,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD973B)
-    (at 69.85 71.12)
+    (at 133.35 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5DE)
@@ -1690,7 +1690,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD974E)
-    (at 69.85 86.36)
+    (at 133.35 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9550)
@@ -1725,7 +1725,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9761)
-    (at 69.85 101.6)
+    (at 133.35 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA955F)
@@ -1760,7 +1760,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9774)
-    (at 69.85 116.84)
+    (at 133.35 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9578)
@@ -1795,7 +1795,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9787)
-    (at 69.85 132.08)
+    (at 133.35 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9587)
@@ -1830,7 +1830,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD979A)
-    (at 74.93 25.4)
+    (at 138.43 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5F6)
@@ -1865,7 +1865,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD97AD)
-    (at 74.93 40.64)
+    (at 138.43 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C605)
@@ -1900,7 +1900,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD97C0)
-    (at 74.93 55.88)
+    (at 138.43 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C61E)
@@ -1935,7 +1935,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD97D3)
-    (at 74.93 71.12)
+    (at 138.43 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C62D)
@@ -1970,7 +1970,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD97E6)
-    (at 74.93 86.36)
+    (at 138.43 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA959F)
@@ -2005,7 +2005,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD97F9)
-    (at 74.93 101.6)
+    (at 138.43 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95AE)
@@ -2040,7 +2040,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD980C)
-    (at 74.93 116.84)
+    (at 138.43 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95C7)
@@ -2075,7 +2075,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD981F)
-    (at 74.93 132.08)
+    (at 138.43 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95D6)
@@ -2110,7 +2110,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9832)
-    (at 80.01 25.4)
+    (at 143.51 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5FD)
@@ -2145,7 +2145,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9845)
-    (at 80.01 40.64)
+    (at 143.51 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C60C)
@@ -2180,7 +2180,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9858)
-    (at 80.01 55.88)
+    (at 143.51 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C625)
@@ -2215,7 +2215,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD986B)
-    (at 80.01 71.12)
+    (at 143.51 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C634)
@@ -2250,7 +2250,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD987E)
-    (at 80.01 86.36)
+    (at 143.51 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95A6)
@@ -2285,7 +2285,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9891)
-    (at 80.01 101.6)
+    (at 143.51 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95B5)
@@ -2320,7 +2320,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD98A4)
-    (at 80.01 116.84)
+    (at 143.51 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95CE)
@@ -2355,7 +2355,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD98B7)
-    (at 80.01 132.08)
+    (at 143.51 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95DD)
@@ -2390,7 +2390,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD98CA)
-    (at 85.09 25.4)
+    (at 148.59 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4AE)
@@ -2425,7 +2425,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD98DD)
-    (at 85.09 40.64)
+    (at 148.59 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4BD)
@@ -2460,7 +2460,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD98F0)
-    (at 85.09 55.88)
+    (at 148.59 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4D5)
@@ -2495,7 +2495,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9903)
-    (at 85.09 71.12)
+    (at 148.59 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4E4)
@@ -2530,7 +2530,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9916)
-    (at 85.09 86.36)
+    (at 148.59 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F629)
@@ -2565,7 +2565,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9929)
-    (at 85.09 101.6)
+    (at 148.59 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F638)
@@ -2600,7 +2600,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD993C)
-    (at 85.09 116.84)
+    (at 148.59 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F650)
@@ -2635,7 +2635,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD994F)
-    (at 85.09 132.08)
+    (at 148.59 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F65F)
@@ -2670,7 +2670,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9962)
-    (at 90.17 25.4)
+    (at 153.67 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4B5)
@@ -2705,7 +2705,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9975)
-    (at 90.17 40.64)
+    (at 153.67 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4C4)
@@ -2740,7 +2740,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9988)
-    (at 90.17 55.88)
+    (at 153.67 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4DC)
@@ -2775,7 +2775,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD999B)
-    (at 90.17 71.12)
+    (at 153.67 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4EB)
@@ -2810,7 +2810,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD99AE)
-    (at 90.17 86.36)
+    (at 153.67 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F630)
@@ -2845,7 +2845,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD99C1)
-    (at 90.17 101.6)
+    (at 153.67 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F63F)
@@ -2880,7 +2880,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD99D4)
-    (at 90.17 116.84)
+    (at 153.67 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F657)
@@ -2915,7 +2915,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD99E7)
-    (at 90.17 132.08)
+    (at 153.67 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F666)
@@ -2950,7 +2950,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD99FA)
-    (at 95.25 25.4)
+    (at 158.75 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F503)
@@ -2985,7 +2985,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A0D)
-    (at 95.25 40.64)
+    (at 158.75 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F512)
@@ -3020,7 +3020,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A20)
-    (at 95.25 55.88)
+    (at 158.75 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F52B)
@@ -3055,7 +3055,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A33)
-    (at 95.25 71.12)
+    (at 158.75 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F53A)
@@ -3090,7 +3090,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A46)
-    (at 95.25 86.36)
+    (at 158.75 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F67E)
@@ -3125,7 +3125,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A59)
-    (at 95.25 101.6)
+    (at 158.75 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F68D)
@@ -3160,7 +3160,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A6C)
-    (at 95.25 116.84)
+    (at 158.75 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6A6)
@@ -3195,7 +3195,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A7F)
-    (at 95.25 132.08)
+    (at 158.75 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6B5)
@@ -3230,7 +3230,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9A92)
-    (at 100.33 25.4)
+    (at 163.83 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F50A)
@@ -3265,7 +3265,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9AA5)
-    (at 100.33 40.64)
+    (at 163.83 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F519)
@@ -3300,7 +3300,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9AB8)
-    (at 100.33 55.88)
+    (at 163.83 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F532)
@@ -3335,7 +3335,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9ACB)
-    (at 100.33 71.12)
+    (at 163.83 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F541)
@@ -3370,7 +3370,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9ADE)
-    (at 100.33 86.36)
+    (at 163.83 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F685)
@@ -3405,7 +3405,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9AF1)
-    (at 100.33 101.6)
+    (at 163.83 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F694)
@@ -3440,7 +3440,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B04)
-    (at 100.33 116.84)
+    (at 163.83 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6AD)
@@ -3475,7 +3475,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B17)
-    (at 100.33 132.08)
+    (at 163.83 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6BC)
@@ -3510,7 +3510,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B2A)
-    (at 105.41 25.4)
+    (at 168.91 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F565)
@@ -3545,7 +3545,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B3D)
-    (at 105.41 40.64)
+    (at 168.91 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F574)
@@ -3580,7 +3580,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B50)
-    (at 105.41 55.88)
+    (at 168.91 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F58D)
@@ -3615,7 +3615,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B63)
-    (at 105.41 71.12)
+    (at 168.91 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F59C)
@@ -3650,7 +3650,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B76)
-    (at 105.41 86.36)
+    (at 168.91 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6E0)
@@ -3685,7 +3685,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B89)
-    (at 105.41 101.6)
+    (at 168.91 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6EF)
@@ -3720,7 +3720,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9B9C)
-    (at 105.41 116.84)
+    (at 168.91 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F708)
@@ -3755,7 +3755,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9BAF)
-    (at 105.41 132.08)
+    (at 168.91 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F717)
@@ -3790,7 +3790,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9BC2)
-    (at 110.49 25.4)
+    (at 173.99 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F56C)
@@ -3825,7 +3825,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9BD5)
-    (at 110.49 40.64)
+    (at 173.99 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F57B)
@@ -3860,7 +3860,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9BE8)
-    (at 110.49 55.88)
+    (at 173.99 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F594)
@@ -3895,7 +3895,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9BFB)
-    (at 110.49 71.12)
+    (at 173.99 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5A3)
@@ -3930,7 +3930,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C0E)
-    (at 110.49 86.36)
+    (at 173.99 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6E7)
@@ -3965,7 +3965,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C21)
-    (at 110.49 101.6)
+    (at 173.99 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6F6)
@@ -4000,7 +4000,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C34)
-    (at 110.49 116.84)
+    (at 173.99 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F70F)
@@ -4035,7 +4035,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C47)
-    (at 110.49 132.08)
+    (at 173.99 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F71E)
@@ -4070,7 +4070,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C5A)
-    (at 115.57 25.4)
+    (at 179.07 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5BA)
@@ -4105,7 +4105,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C6D)
-    (at 115.57 40.64)
+    (at 179.07 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5C9)
@@ -4140,7 +4140,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C80)
-    (at 115.57 55.88)
+    (at 179.07 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5E2)
@@ -4175,7 +4175,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9C93)
-    (at 115.57 71.12)
+    (at 179.07 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5F1)
@@ -4210,7 +4210,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9CA6)
-    (at 115.57 86.36)
+    (at 179.07 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F736)
@@ -4245,7 +4245,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9CB9)
-    (at 115.57 101.6)
+    (at 179.07 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F745)
@@ -4280,7 +4280,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9CCC)
-    (at 115.57 116.84)
+    (at 179.07 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F75E)
@@ -4315,7 +4315,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9CDF)
-    (at 115.57 132.08)
+    (at 179.07 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F76D)
@@ -4350,7 +4350,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9CF2)
-    (at 120.65 25.4)
+    (at 184.15 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5C1)
@@ -4385,7 +4385,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D05)
-    (at 120.65 40.64)
+    (at 184.15 69.85)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5D0)
@@ -4420,7 +4420,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D18)
-    (at 120.65 55.88)
+    (at 184.15 74.93)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5E9)
@@ -4455,7 +4455,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D2B)
-    (at 120.65 71.12)
+    (at 184.15 80.01)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5F8)
@@ -4490,7 +4490,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D3E)
-    (at 120.65 86.36)
+    (at 184.15 85.09)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F73D)
@@ -4525,7 +4525,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D51)
-    (at 120.65 101.6)
+    (at 184.15 90.17)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F74C)
@@ -4560,7 +4560,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D64)
-    (at 120.65 116.84)
+    (at 184.15 95.25)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F765)
@@ -4595,7 +4595,7 @@
   )
 
   (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD9D77)
-    (at 120.65 132.08)
+    (at 184.15 100.33)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F774)
@@ -4630,7 +4630,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5DFD9DA3)
-    (at 45.466 173.482 90)
+    (at 108.966 109.22 90)
     (descr "Through hole straight pin header, 1x24, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x24 2.54mm single row")
     (path /5E01FBCC)

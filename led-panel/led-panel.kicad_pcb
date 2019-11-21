@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -149,12 +149,12 @@
     (add_net "Net-(D88-Pad1)")
   )
 
-  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD940A)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 5DD6FDD2) (tstamp 5DFD940A)
     (at 107.95 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD575FB)
-    (fp_text reference D0 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D0 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -189,7 +189,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5826E)
-    (fp_text reference D1 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D1 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -224,7 +224,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58932)
-    (fp_text reference D2 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D2 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -259,7 +259,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58941)
-    (fp_text reference D3 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D3 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -294,7 +294,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9492)
-    (fp_text reference D4 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D4 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -329,7 +329,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94A1)
-    (fp_text reference D5 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D5 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -364,7 +364,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94B9)
-    (fp_text reference D6 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D6 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -399,7 +399,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94C8)
-    (fp_text reference D7 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D7 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -429,12 +429,12 @@
     )
   )
 
-  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 587A3A7B) (tstamp 5DFD94A2)
+  (module LED_THT:LED_D3.0mm (layer F.Cu) (tedit 5DD6FE2E) (tstamp 5DFD94A2)
     (at 113.03 64.77)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5818C)
-    (fp_text reference D8 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D8 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -469,7 +469,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58275)
-    (fp_text reference D9 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D9 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -504,7 +504,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58939)
-    (fp_text reference D10 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D10 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -539,7 +539,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD58948)
-    (fp_text reference D11 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D11 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -574,7 +574,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9499)
-    (fp_text reference D12 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D12 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -609,7 +609,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94A8)
-    (fp_text reference D13 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D13 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -644,7 +644,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94C0)
-    (fp_text reference D14 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D14 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -679,7 +679,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94CF)
-    (fp_text reference D15 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D15 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -714,7 +714,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591E6)
-    (fp_text reference D16 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D16 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -749,7 +749,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591F5)
-    (fp_text reference D17 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D17 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -784,7 +784,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5920E)
-    (fp_text reference D18 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D18 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -819,7 +819,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5921D)
-    (fp_text reference D19 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D19 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -854,7 +854,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94E7)
-    (fp_text reference D20 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D20 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -889,7 +889,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94F6)
-    (fp_text reference D21 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D21 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -924,7 +924,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA950F)
-    (fp_text reference D22 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D22 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -959,7 +959,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA951E)
-    (fp_text reference D23 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D23 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -994,7 +994,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591ED)
-    (fp_text reference D24 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D24 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1029,7 +1029,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD591FC)
-    (fp_text reference D25 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D25 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1064,7 +1064,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD59215)
-    (fp_text reference D26 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D26 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1099,7 +1099,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD59224)
-    (fp_text reference D27 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D27 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1134,7 +1134,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94EE)
-    (fp_text reference D28 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D28 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1169,7 +1169,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA94FD)
-    (fp_text reference D29 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D29 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1204,7 +1204,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9516)
-    (fp_text reference D30 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D30 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1239,7 +1239,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9525)
-    (fp_text reference D31 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D31 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1274,7 +1274,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5A0)
-    (fp_text reference D32 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D32 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1309,7 +1309,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5AF)
-    (fp_text reference D33 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D33 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1344,7 +1344,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5C8)
-    (fp_text reference D34 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D34 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1379,7 +1379,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5D7)
-    (fp_text reference D35 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D35 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1414,7 +1414,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9549)
-    (fp_text reference D36 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D36 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1449,7 +1449,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9558)
-    (fp_text reference D37 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D37 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1484,7 +1484,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9571)
-    (fp_text reference D38 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D38 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1519,7 +1519,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9580)
-    (fp_text reference D39 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D39 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1554,7 +1554,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5A7)
-    (fp_text reference D40 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D40 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1589,7 +1589,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5B6)
-    (fp_text reference D41 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D41 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1624,7 +1624,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5CF)
-    (fp_text reference D42 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D42 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1659,7 +1659,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5DE)
-    (fp_text reference D43 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D43 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1694,7 +1694,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9550)
-    (fp_text reference D44 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D44 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1729,7 +1729,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA955F)
-    (fp_text reference D45 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D45 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1764,7 +1764,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9578)
-    (fp_text reference D46 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D46 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1799,7 +1799,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA9587)
-    (fp_text reference D47 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D47 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1834,7 +1834,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5F6)
-    (fp_text reference D48 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D48 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1869,7 +1869,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C605)
-    (fp_text reference D49 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D49 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1904,7 +1904,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C61E)
-    (fp_text reference D50 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D50 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1939,7 +1939,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C62D)
-    (fp_text reference D51 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D51 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -1974,7 +1974,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA959F)
-    (fp_text reference D52 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D52 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2009,7 +2009,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95AE)
-    (fp_text reference D53 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D53 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2044,7 +2044,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95C7)
-    (fp_text reference D54 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D54 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2079,7 +2079,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95D6)
-    (fp_text reference D55 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D55 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2114,7 +2114,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C5FD)
-    (fp_text reference D56 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D56 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2149,7 +2149,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C60C)
-    (fp_text reference D57 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D57 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2184,7 +2184,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C625)
-    (fp_text reference D58 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D58 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2219,7 +2219,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DD5C634)
-    (fp_text reference D59 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D59 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2254,7 +2254,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95A6)
-    (fp_text reference D60 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D60 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2289,7 +2289,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95B5)
-    (fp_text reference D61 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D61 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2324,7 +2324,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95CE)
-    (fp_text reference D62 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D62 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2359,7 +2359,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DDA95DD)
-    (fp_text reference D63 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D63 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2394,7 +2394,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4AE)
-    (fp_text reference D64 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D64 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2429,7 +2429,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4BD)
-    (fp_text reference D65 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D65 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2464,7 +2464,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4D5)
-    (fp_text reference D66 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D66 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2499,7 +2499,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4E4)
-    (fp_text reference D67 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D67 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2534,7 +2534,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F629)
-    (fp_text reference D68 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D68 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2569,7 +2569,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F638)
-    (fp_text reference D69 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D69 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2604,7 +2604,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F650)
-    (fp_text reference D70 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D70 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2639,7 +2639,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F65F)
-    (fp_text reference D71 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D71 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2674,7 +2674,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4B5)
-    (fp_text reference D72 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D72 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2709,7 +2709,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4C4)
-    (fp_text reference D73 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D73 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2744,7 +2744,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4DC)
-    (fp_text reference D74 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D74 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2779,7 +2779,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F4EB)
-    (fp_text reference D75 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D75 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2814,7 +2814,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F630)
-    (fp_text reference D76 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D76 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2849,7 +2849,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F63F)
-    (fp_text reference D77 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D77 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2884,7 +2884,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F657)
-    (fp_text reference D78 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D78 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2919,7 +2919,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F666)
-    (fp_text reference D79 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D79 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2954,7 +2954,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F503)
-    (fp_text reference D80 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D80 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -2989,7 +2989,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F512)
-    (fp_text reference D81 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D81 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3024,7 +3024,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F52B)
-    (fp_text reference D82 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D82 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3059,7 +3059,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F53A)
-    (fp_text reference D83 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D83 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3094,7 +3094,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F67E)
-    (fp_text reference D84 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D84 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3129,7 +3129,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F68D)
-    (fp_text reference D85 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D85 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3164,7 +3164,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6A6)
-    (fp_text reference D86 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D86 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3199,7 +3199,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6B5)
-    (fp_text reference D87 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D87 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3234,7 +3234,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F50A)
-    (fp_text reference D88 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D88 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3269,7 +3269,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F519)
-    (fp_text reference D89 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D89 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3304,7 +3304,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F532)
-    (fp_text reference D90 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D90 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3339,7 +3339,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F541)
-    (fp_text reference D91 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D91 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3374,7 +3374,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F685)
-    (fp_text reference D92 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D92 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3409,7 +3409,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F694)
-    (fp_text reference D93 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D93 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3444,7 +3444,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6AD)
-    (fp_text reference D94 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D94 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3479,7 +3479,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6BC)
-    (fp_text reference D95 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D95 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3514,7 +3514,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F565)
-    (fp_text reference D96 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D96 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3549,7 +3549,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F574)
-    (fp_text reference D97 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D97 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3584,7 +3584,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F58D)
-    (fp_text reference D98 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D98 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3619,7 +3619,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F59C)
-    (fp_text reference D99 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D99 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3654,7 +3654,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6E0)
-    (fp_text reference D100 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D100 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3689,7 +3689,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6EF)
-    (fp_text reference D101 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D101 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3724,7 +3724,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F708)
-    (fp_text reference D102 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D102 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3759,7 +3759,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F717)
-    (fp_text reference D103 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D103 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3794,7 +3794,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F56C)
-    (fp_text reference D104 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D104 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3829,7 +3829,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F57B)
-    (fp_text reference D105 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D105 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3864,7 +3864,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F594)
-    (fp_text reference D106 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D106 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3899,7 +3899,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5A3)
-    (fp_text reference D107 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D107 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3934,7 +3934,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6E7)
-    (fp_text reference D108 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D108 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -3969,7 +3969,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F6F6)
-    (fp_text reference D109 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D109 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4004,7 +4004,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F70F)
-    (fp_text reference D110 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D110 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4039,7 +4039,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F71E)
-    (fp_text reference D111 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D111 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4074,7 +4074,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5BA)
-    (fp_text reference D112 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D112 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4109,7 +4109,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5C9)
-    (fp_text reference D113 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D113 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4144,7 +4144,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5E2)
-    (fp_text reference D114 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D114 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4179,7 +4179,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5F1)
-    (fp_text reference D115 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D115 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4214,7 +4214,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F736)
-    (fp_text reference D116 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D116 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4249,7 +4249,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F745)
-    (fp_text reference D117 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D117 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4284,7 +4284,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F75E)
-    (fp_text reference D118 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D118 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4319,7 +4319,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F76D)
-    (fp_text reference D119 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D119 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4354,7 +4354,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5C1)
-    (fp_text reference D120 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D120 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4389,7 +4389,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5D0)
-    (fp_text reference D121 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D121 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4424,7 +4424,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5E9)
-    (fp_text reference D122 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D122 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4459,7 +4459,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F5F8)
-    (fp_text reference D123 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D123 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4494,7 +4494,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F73D)
-    (fp_text reference D124 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D124 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4529,7 +4529,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F74C)
-    (fp_text reference D125 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D125 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4564,7 +4564,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F765)
-    (fp_text reference D126 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D126 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
@@ -4599,7 +4599,7 @@
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
     (path /5DE2F774)
-    (fp_text reference D127 (at 1.27 -2.96) (layer F.SilkS)
+    (fp_text reference D127 (at 1.27 -2.96) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED (at 1.27 2.96) (layer F.Fab)
