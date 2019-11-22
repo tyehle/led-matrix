@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:led-panel-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2607,7 +2608,7 @@ U 1 1 5E01FBCC
 P 1850 7150
 F 0 "J1" V 1974 7096 50  0000 C CNN
 F 1 "Conn_01x24" V 2065 7096 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x24_P2.54mm_Vertical" H 1850 7150 50  0001 C CNN
+F 2 "led-panel:PinHeader_1x8+16_P2.54mm_Vertical" H 1850 7150 50  0001 C CNN
 F 3 "~" H 1850 7150 50  0001 C CNN
 	1    1850 7150
 	0    -1   1    0   

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name led-panel)(type KiCad)(uri ${KIPRJMOD}/led-panel.pretty)(options "")(descr ""))
+)
