@@ -1,11 +1,11 @@
 # 16x8 LED Matrix
-
-![board-render-f](svg/top.svg)
+<img src="svg/top.svg" alt="board render" width="100%"/>
 
 Required parts: 128 of your favorite color 3mm LEDs, and a standard 24 pin header.
 
+
 # Schematic
-![schematic](led-matrix.svg)
+<img src="led-panel.svg" alt="schematic" width="100%"/>
 
 
 # LICENSE
