@@ -1,5 +1,9 @@
+#include <SPI.h>
+
+int regPin = 10;
+int outputDisablePin = 3;
+
 int rows[4] = {6, 7, 8, 9};
-int cols[4] = {10, 11, 12, 13};
 
 uint8_t image[4][4];
 
@@ -118,28 +122,32 @@ int animation_frame;
 long animation_frame_duration;
 long animation_frame_start;
 
+unsigned long layer_end_time;
+
 void setup() {
+  SPI.begin();
+  SPI.beginTransaction(SPISettings(24000000, MSBFIRST, SPI_MODE0));
+  
+  pinMode(regPin, OUTPUT);
+  digitalWrite(regPin, LOW);
+  
+  pinMode(outputDisablePin, OUTPUT);
+  digitalWrite(outputDisablePin, LOW);
+  
   for(int i = 0; i < 4; i++) {
     pinMode(rows[i], OUTPUT);
-    pinMode(cols[i], OUTPUT);
   }
 
   animation_frame_duration = 1000000 / animation_fps;
   animation_frame = 0;
-  set_image();
   animation_frame_start = micros();
 
-  Serial.begin(9600);
+  layer_end_time = micros() + 10000;
 }
 
-void set_image() {
-  memcpy(image, animation[animation_frame], sizeof(uint8_t)*16);
-}
-
-void update_image() {
+void update_frame() {
   if(micros() - animation_frame_start >= animation_frame_duration) {
     animation_frame = (animation_frame + 1) % FRAMES;
-    set_image();
     animation_frame_start = micros();
   }
 }
@@ -156,29 +164,91 @@ void block_until(unsigned long stop_micros) {
   }
 }
 
-// the loop function runs over and over again forever
-void loop() {
-  // this will do one scan over the led matrix
-  unsigned long scan_start = micros();
-  // scans are supposed to be 10000 microseconds long
-
-  // update the image if we need to
-  update_image();
-
-  for(char brightness = 0; brightness < 4; brightness++) {
-    for(int row = 0; row < 4; row++) {
-      // configure the columns
-      for(int col = 0; col < 4; col++) {
-        digitalWrite(cols[col], brightness_masks[brightness] & image[row][col]);
-      }
-      // let there be light
-      digitalWrite(rows[row], LOW);
-      // wait for a bit so the lights are on for at least some time
-      block_until(micros() + (1<<brightness) * 20);
-      // turn off the row so we can start writing the next row
-      digitalWrite(rows[row], HIGH);
+void prepareRow(char row, short layers[4]) {  
+  for(char brightness = 3; brightness >= 0; brightness--) {
+    short out = 0;
+    for(char col = 3; col >= 0; col--) {
+      out |= ((animation[animation_frame][row][col] >> brightness) & 1) << col;
     }
+    out = out ^ -1;
+    layers[brightness] = out;
   }
-
-  block_until(scan_start + 10000);
 }
+
+void scan() {
+  short layers[4];
+  
+  prepareRow(3, layers);
+
+  for(char row = 3; row >= 0; row--) {
+    for(char brightness = 0; brightness < 4; brightness++) {
+      
+      // feed data to the shift registers
+      SPI.transfer(((15 << brightness) & 0x0f) ^ -1);
+//      SPI.transfer(layers[brightness] >> 8);
+      SPI.transfer(layers[brightness]);
+
+      // wait for the previous layer to end
+      block_until(layer_end_time);
+
+      // switch up the acutal output of the registers
+      if(brightness == 0) {
+        // gotta switch rows
+        digitalWrite(outputDisablePin, HIGH);
+        digitalWrite(rows[(row+1) % 4], LOW);
+        digitalWrite(rows[row], HIGH);
+
+        // Registers latch on a rising edge
+        digitalWrite(regPin, HIGH);
+        digitalWrite(outputDisablePin, LOW);
+      } else {
+        // no need to change rows
+        // Registers latch on a rising edge
+        digitalWrite(regPin, HIGH);
+      }
+      
+      layer_end_time = micros() + (1<<brightness) * 50;
+      digitalWrite(regPin, LOW);
+    }
+
+    prepareRow(row-1, layers);
+  }
+}
+
+void loop() {
+  update_frame();
+  scan();
+}
+
+//void loop() {
+//  // this will do one scan over the led matrix
+//  unsigned long scan_start = micros();
+//  // scans are supposed to be 10000 microseconds long
+//
+//  // update the image if we need to
+//  update_frame();
+//
+//  for(char brightness = 0; brightness < 4; brightness++) {
+//    for(int row = 0; row < 4; row++) {
+//      // configure the columns
+//      char out = 0;
+//      for(int col = 0; col < 4; col++) {
+//        out |= ((animation[animation_frame][row][col] >> brightness) & 1) << col;
+//      }
+//      out = out ^ -1;
+//      SPI.transfer(out);
+//      SPI.transfer(out);
+//      digitalWrite(regPin, HIGH);
+//      digitalWrite(regPin, LOW);
+//      
+//      // let there be light
+//      digitalWrite(rows[row], HIGH);
+//      // wait for a bit so the lights are on for at least some time
+//      block_until(micros() + (1<<brightness) * 100);
+//      // turn off the row so we can start writing the next row
+//      digitalWrite(rows[row], LOW);
+//    }
+//  }
+//
+//  block_until(scan_start + 1000);
+//}
