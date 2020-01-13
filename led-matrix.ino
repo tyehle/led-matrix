@@ -219,36 +219,3 @@ void loop() {
   update_frame();
   scan();
 }
-
-//void loop() {
-//  // this will do one scan over the led matrix
-//  unsigned long scan_start = micros();
-//  // scans are supposed to be 10000 microseconds long
-//
-//  // update the image if we need to
-//  update_frame();
-//
-//  for(char brightness = 0; brightness < 4; brightness++) {
-//    for(int row = 0; row < 4; row++) {
-//      // configure the columns
-//      char out = 0;
-//      for(int col = 0; col < 4; col++) {
-//        out |= ((animation[animation_frame][row][col] >> brightness) & 1) << col;
-//      }
-//      out = out ^ -1;
-//      SPI.transfer(out);
-//      SPI.transfer(out);
-//      digitalWrite(regPin, HIGH);
-//      digitalWrite(regPin, LOW);
-//      
-//      // let there be light
-//      digitalWrite(rows[row], HIGH);
-//      // wait for a bit so the lights are on for at least some time
-//      block_until(micros() + (1<<brightness) * 100);
-//      // turn off the row so we can start writing the next row
-//      digitalWrite(rows[row], LOW);
-//    }
-//  }
-//
-//  block_until(scan_start + 1000);
-//}
