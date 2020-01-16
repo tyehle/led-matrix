@@ -41,22 +41,30 @@ void d2xy(char n, char d, char* x, char* y) {
     }
 }
 
-char* tail[4] = {nullptr, nullptr, nullptr, nullptr};
+#define TAIL_LEN 20
+char profile[TAIL_LEN] = {1, 2, 6, 15, 13, 10, 9, 7, 6, 5, 4, 4, 3, 2, 2, 2, 1, 1, 1, 0};
+char* tail[TAIL_LEN] = {};
 
-void step_image(char frame, char image[8][16]) {
-    // dim and cycle the tail
-    for(char i = 3; i >= 0; i--) {
-        if(tail[i] != nullptr) {
-            *tail[i] = *tail[i] >> 1;
-        }
-        if(i > 0) {
-            tail[i] = tail[i-1];
-        }
+void step_image(int frame, char image[8][16]) {
+    // cycle the tail
+    for(char i = TAIL_LEN - 1; i > 0; i--) {
+        tail[i] = tail[i-1];
     }
 
-    // set the new pixel
-    char x, y;
-    d2xy(16, frame, &x, &y);
-    image[x][y] = 15;
-    tail[0] = &image[x][y];
+    // set tail[0]
+    if(tail[1] == nullptr && tail[2] == nullptr) {
+        // time to turn on another light
+        char x, y;
+        d2xy(16, frame / 3, &x, &y);
+        tail[0] = &image[x][y];
+    } else {
+        tail[0] = nullptr;
+    }
+
+    // set all the values
+    for(char i = TAIL_LEN - 1; i >= 0; i--) {
+        if(tail[i] != nullptr) {
+            *tail[i] = profile[i];
+        }
+    }
 }
