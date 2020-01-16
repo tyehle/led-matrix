@@ -2,9 +2,9 @@
 #include "hilbert_curve.h"
 
 int regPin = 10;
-int outputDisablePin = 3;
+int outputDisablePin = 8;
 
-int rows[4] = {6, 7, 8, 9};
+int rows[8] = {3, 4, 5}; // {2, 3, 4, 5, 6, 7, 8, 9};
 
 char image[8][16] = {
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -17,7 +17,7 @@ char image[8][16] = {
     {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 };
 
-int animation_fps = 24;
+int animation_fps = 30;
 int animation_frame;
 long animation_frame_duration;
 long animation_frame_start;
@@ -34,7 +34,7 @@ void setup() {
   pinMode(outputDisablePin, OUTPUT);
   digitalWrite(outputDisablePin, LOW);
 
-  for(int i = 0; i < 4; i++) {
+  for(int i = 0; i < 8; i++) {
     pinMode(rows[i], OUTPUT);
   }
 
@@ -49,7 +49,7 @@ void setup() {
 void update_frame() {
   if(micros() - animation_frame_start >= animation_frame_duration) {
     animation_frame += 1;
-    if(animation_frame >= 128) {
+    if(animation_frame >= 384) {
       animation_frame = 0;
     }
     step_image(animation_frame, image);
@@ -83,9 +83,9 @@ void prepareRow(char row, short layers[4]) {
 void scan() {
   short layers[4];
 
-  prepareRow(3, layers);
+  prepareRow(7, layers);
 
-  for(char row = 3; row >= 0; row--) {
+  for(char row = 7; row >= 0; row--) {
     for(char brightness = 0; brightness < 4; brightness++) {
 
       // feed data to the shift registers
@@ -100,8 +100,9 @@ void scan() {
       if(brightness == 0) {
         // gotta switch rows
         digitalWrite(outputDisablePin, HIGH);
-        digitalWrite(rows[(row+1) % 4], LOW);
-        digitalWrite(rows[row], HIGH);
+        for(char i = 2; i >= 0; i--) {
+          digitalWrite(rows[i], (row >> i) & 1);
+        }
 
         // Registers latch on a rising edge
         digitalWrite(regPin, HIGH);
