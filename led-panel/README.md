@@ -5,6 +5,9 @@ Required parts: 128 of your favorite color 3mm LEDs, and a standard 24 pin heade
 
 
 # Schematic
+
+After putting the first one of these together I realized it might be better to solder all the LEDs in the other way around. this won't cause any issues with the wiring on the board and will play a little better with some of the schemes for driving LED panels.
+
 <img src="led-panel.svg" alt="schematic" width="100%"/>
 
 
